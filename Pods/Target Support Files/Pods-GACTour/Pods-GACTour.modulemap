@@ -1,0 +1,6 @@
+framework module Pods_GACTour {
+  umbrella header "Pods-GACTour-umbrella.h"
+
+  export *
+  module * { export * }
+}

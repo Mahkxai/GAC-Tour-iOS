@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F54E838E2FEAF4CB01CE93A /* Pods_GACTour_GACTourUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E63C96DB17410A0CD7459DF /* Pods_GACTour_GACTourUITests.framework */; };
+		35A331411627F0D951ADCE75 /* Pods_GACTour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E936574F0F14E5B7147642AF /* Pods_GACTour.framework */; };
 		66676C822C8554F900EFF355 /* GACTourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66676C812C8554F900EFF355 /* GACTourApp.swift */; };
 		66676C842C8554F900EFF355 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66676C832C8554F900EFF355 /* ContentView.swift */; };
 		66676C862C8554FB00EFF355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66676C852C8554FB00EFF355 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		66676C932C8554FB00EFF355 /* GACTourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66676C922C8554FB00EFF355 /* GACTourTests.swift */; };
 		66676C9D2C8554FB00EFF355 /* GACTourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66676C9C2C8554FB00EFF355 /* GACTourUITests.swift */; };
 		66676C9F2C8554FB00EFF355 /* GACTourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66676C9E2C8554FB00EFF355 /* GACTourUITestsLaunchTests.swift */; };
+		92859E175F3D7B7167E3D526 /* Pods_GACTourTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64AD12543C450C97784EAF9 /* Pods_GACTourTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12B8D4D7A7A2DB1FD9DE752E /* Pods-GACTourTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GACTourTests.release.xcconfig"; path = "Target Support Files/Pods-GACTourTests/Pods-GACTourTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E63C96DB17410A0CD7459DF /* Pods_GACTour_GACTourUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GACTour_GACTourUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		662E27A12C8558D00058693E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		66676C7E2C8554F900EFF355 /* GACTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GACTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66676C812C8554F900EFF355 /* GACTourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GACTourApp.swift; sourceTree = "<group>"; };
 		66676C832C8554F900EFF355 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,13 @@
 		66676C982C8554FB00EFF355 /* GACTourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GACTourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66676C9C2C8554FB00EFF355 /* GACTourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GACTourUITests.swift; sourceTree = "<group>"; };
 		66676C9E2C8554FB00EFF355 /* GACTourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GACTourUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69414A7B05D5E1723735F157 /* Pods-GACTour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GACTour.release.xcconfig"; path = "Target Support Files/Pods-GACTour/Pods-GACTour.release.xcconfig"; sourceTree = "<group>"; };
+		7A2C3B4FAFD11587DAFD1636 /* Pods-GACTour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GACTour.debug.xcconfig"; path = "Target Support Files/Pods-GACTour/Pods-GACTour.debug.xcconfig"; sourceTree = "<group>"; };
+		A9543C03795B35A4002E4616 /* Pods-GACTour-GACTourUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GACTour-GACTourUITests.release.xcconfig"; path = "Target Support Files/Pods-GACTour-GACTourUITests/Pods-GACTour-GACTourUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C64AD12543C450C97784EAF9 /* Pods_GACTourTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GACTourTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A3F1AE93A0BC2498EAE7BF /* Pods-GACTourTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GACTourTests.debug.xcconfig"; path = "Target Support Files/Pods-GACTourTests/Pods-GACTourTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E936574F0F14E5B7147642AF /* Pods_GACTour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GACTour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF812411933B83CD16A440BC /* Pods-GACTour-GACTourUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GACTour-GACTourUITests.debug.xcconfig"; path = "Target Support Files/Pods-GACTour-GACTourUITests/Pods-GACTour-GACTourUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A331411627F0D951ADCE75 /* Pods_GACTour.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92859E175F3D7B7167E3D526 /* Pods_GACTourTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F54E838E2FEAF4CB01CE93A /* Pods_GACTour_GACTourUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +94,8 @@
 				66676C912C8554FB00EFF355 /* GACTourTests */,
 				66676C9B2C8554FB00EFF355 /* GACTourUITests */,
 				66676C7F2C8554F900EFF355 /* Products */,
+				9C62889D00C6E0BBFEFC801B /* Pods */,
+				FAC47C9B6715474D7D5ABF70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +112,7 @@
 		66676C802C8554F900EFF355 /* GACTour */ = {
 			isa = PBXGroup;
 			children = (
+				662E27A12C8558D00058693E /* Info.plist */,
 				66676C812C8554F900EFF355 /* GACTourApp.swift */,
 				66676C832C8554F900EFF355 /* ContentView.swift */,
 				66676C852C8554FB00EFF355 /* Assets.xcassets */,
@@ -127,6 +146,29 @@
 			path = GACTourUITests;
 			sourceTree = "<group>";
 		};
+		9C62889D00C6E0BBFEFC801B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A2C3B4FAFD11587DAFD1636 /* Pods-GACTour.debug.xcconfig */,
+				69414A7B05D5E1723735F157 /* Pods-GACTour.release.xcconfig */,
+				FF812411933B83CD16A440BC /* Pods-GACTour-GACTourUITests.debug.xcconfig */,
+				A9543C03795B35A4002E4616 /* Pods-GACTour-GACTourUITests.release.xcconfig */,
+				E0A3F1AE93A0BC2498EAE7BF /* Pods-GACTourTests.debug.xcconfig */,
+				12B8D4D7A7A2DB1FD9DE752E /* Pods-GACTourTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAC47C9B6715474D7D5ABF70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E936574F0F14E5B7147642AF /* Pods_GACTour.framework */,
+				1E63C96DB17410A0CD7459DF /* Pods_GACTour_GACTourUITests.framework */,
+				C64AD12543C450C97784EAF9 /* Pods_GACTourTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66676CA22C8554FB00EFF355 /* Build configuration list for PBXNativeTarget "GACTour" */;
 			buildPhases = (
+				ACF4C20901B9802BBFCADD2F /* [CP] Check Pods Manifest.lock */,
 				66676C7A2C8554F900EFF355 /* Sources */,
 				66676C7B2C8554F900EFF355 /* Frameworks */,
 				66676C7C2C8554F900EFF355 /* Resources */,
+				D4656444DD24C716237D6683 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66676CA52C8554FB00EFF355 /* Build configuration list for PBXNativeTarget "GACTourTests" */;
 			buildPhases = (
+				D4BA0715881E3EF97F94D0F5 /* [CP] Check Pods Manifest.lock */,
 				66676C8A2C8554FB00EFF355 /* Sources */,
 				66676C8B2C8554FB00EFF355 /* Frameworks */,
 				66676C8C2C8554FB00EFF355 /* Resources */,
@@ -169,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66676CA82C8554FB00EFF355 /* Build configuration list for PBXNativeTarget "GACTourUITests" */;
 			buildPhases = (
+				D285A0C4F154177AD060CF6D /* [CP] Check Pods Manifest.lock */,
 				66676C942C8554FB00EFF355 /* Sources */,
 				66676C952C8554FB00EFF355 /* Frameworks */,
 				66676C962C8554FB00EFF355 /* Resources */,
+				43270E28C1907839E1E4D7E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43270E28C1907839E1E4D7E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GACTour-GACTourUITests/Pods-GACTour-GACTourUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GACTour-GACTourUITests/Pods-GACTour-GACTourUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GACTour-GACTourUITests/Pods-GACTour-GACTourUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF4C20901B9802BBFCADD2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GACTour-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D285A0C4F154177AD060CF6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GACTour-GACTourUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4656444DD24C716237D6683 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GACTour/Pods-GACTour-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GACTour/Pods-GACTour-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GACTour/Pods-GACTour-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4BA0715881E3EF97F94D0F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GACTourTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		66676C7A2C8554F900EFF355 /* Sources */ = {
@@ -332,7 +482,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -395,7 +545,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -416,6 +566,7 @@
 		};
 		66676CA32C8554FB00EFF355 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2C3B4FAFD11587DAFD1636 /* Pods-GACTour.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,6 +575,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GACTour/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GACTour/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -444,6 +596,7 @@
 		};
 		66676CA42C8554FB00EFF355 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69414A7B05D5E1723735F157 /* Pods-GACTour.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +605,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GACTour/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GACTour/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -472,6 +626,7 @@
 		};
 		66676CA62C8554FB00EFF355 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A3F1AE93A0BC2498EAE7BF /* Pods-GACTourTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +646,7 @@
 		};
 		66676CA72C8554FB00EFF355 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B8D4D7A7A2DB1FD9DE752E /* Pods-GACTourTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +666,7 @@
 		};
 		66676CA92C8554FB00EFF355 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF812411933B83CD16A440BC /* Pods-GACTour-GACTourUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +684,7 @@
 		};
 		66676CAA2C8554FB00EFF355 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9543C03795B35A4002E4616 /* Pods-GACTour-GACTourUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

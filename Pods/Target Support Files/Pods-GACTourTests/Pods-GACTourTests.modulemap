@@ -1,0 +1,6 @@
+framework module Pods_GACTourTests {
+  umbrella header "Pods-GACTourTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
